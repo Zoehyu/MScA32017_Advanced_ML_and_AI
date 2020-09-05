@@ -1,0 +1,24 @@
+2020-03-01 16:52:27.919251: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-03-01 16:52:28.063942: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:0b:00.0
+totalMemory: 15.90GiB freeMemory: 15.64GiB
+2020-03-01 16:52:28.064019: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1435] Adding visible gpu devices: 0
+2020-03-01 16:52:28.452017: I tensorflow/core/common_runtime/gpu/gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-01 16:52:28.452085: I tensorflow/core/common_runtime/gpu/gpu_device.cc:929]      0 
+2020-03-01 16:52:28.452102: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 0:   N 
+2020-03-01 16:52:28.452242: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15163 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:0b:00.0, compute capability: 6.0)
+2020-03-01 16:53:10.424918: W tensorflow/core/common_runtime/bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.45GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-03-01 16:53:10.791309: W tensorflow/core/common_runtime/bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.15GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+Using TensorFlow backend.
+2020-03-01 18:09:10.882534: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-03-01 18:09:11.052840: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:0b:00.0
+totalMemory: 15.90GiB freeMemory: 15.64GiB
+2020-03-01 18:09:11.052932: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1435] Adding visible gpu devices: 0
+2020-03-01 18:09:11.479321: I tensorflow/core/common_runtime/gpu/gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-01 18:09:11.479400: I tensorflow/core/common_runtime/gpu/gpu_device.cc:929]      0 
+2020-03-01 18:09:11.479413: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 0:   N 
+2020-03-01 18:09:11.479555: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15163 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:0b:00.0, compute capability: 6.0)
+Using TensorFlow backend.

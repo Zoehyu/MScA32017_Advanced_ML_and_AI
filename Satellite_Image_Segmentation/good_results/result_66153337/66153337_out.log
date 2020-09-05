@@ -1,0 +1,195 @@
+Reading images
+01 read
+02 read
+03 read
+04 read
+05 read
+06 read
+07 read
+08 read
+09 read
+10 read
+11 read
+12 read
+13 read
+14 read
+15 read
+16 read
+17 read
+18 read
+19 read
+20 read
+21 read
+22 read
+23 read
+24 read
+Images were read
+start train net
+Generated 4000 patches
+Generated 1000 patches
+Train on 4000 samples, validate on 1000 samples
+Epoch 1/200
+ - 52s - loss: 0.4390 - val_loss: 1.6355
+Epoch 2/200
+ - 44s - loss: 0.2261 - val_loss: 0.2314
+Epoch 3/200
+ - 43s - loss: 0.1605 - val_loss: 0.1957
+Epoch 4/200
+ - 43s - loss: 0.1322 - val_loss: 0.2963
+Epoch 5/200
+ - 43s - loss: 0.1182 - val_loss: 0.7311
+Epoch 6/200
+ - 43s - loss: 0.1099 - val_loss: 0.7607
+Epoch 7/200
+ - 43s - loss: 0.1018 - val_loss: 0.2844
+Epoch 8/200
+ - 43s - loss: 0.0973 - val_loss: 0.1604
+Epoch 9/200
+ - 43s - loss: 0.0923 - val_loss: 0.1373
+Epoch 10/200
+ - 43s - loss: 0.0873 - val_loss: 0.1299
+Epoch 11/200
+ - 43s - loss: 0.0865 - val_loss: 0.1408
+Epoch 12/200
+ - 43s - loss: 0.0876 - val_loss: 0.1231
+Epoch 13/200
+ - 43s - loss: 0.0829 - val_loss: 0.1245
+Epoch 14/200
+ - 42s - loss: 0.0828 - val_loss: 0.1337
+Epoch 15/200
+ - 43s - loss: 0.0822 - val_loss: 0.1066
+Epoch 16/200
+ - 43s - loss: 0.0792 - val_loss: 0.0910
+Epoch 17/200
+ - 43s - loss: 0.0781 - val_loss: 0.1056
+Epoch 18/200
+ - 43s - loss: 0.0766 - val_loss: 0.0877
+Epoch 19/200
+ - 43s - loss: 0.0745 - val_loss: 0.0874
+Epoch 20/200
+ - 43s - loss: 0.0748 - val_loss: 0.1214
+Epoch 21/200
+ - 43s - loss: 0.0737 - val_loss: 0.0919
+Epoch 22/200
+ - 43s - loss: 0.0729 - val_loss: 0.0841
+Epoch 23/200
+ - 43s - loss: 0.0719 - val_loss: 0.0946
+Epoch 24/200
+ - 43s - loss: 0.0708 - val_loss: 0.0859
+Epoch 25/200
+ - 43s - loss: 0.0709 - val_loss: 0.0887
+Epoch 26/200
+ - 43s - loss: 0.0710 - val_loss: 0.0923
+Epoch 27/200
+ - 43s - loss: 0.0714 - val_loss: 0.1099
+
+Epoch 00027: ReduceLROnPlateau reducing learning rate to 0.0010000000474974513.
+Epoch 28/200
+ - 43s - loss: 0.0683 - val_loss: 0.0777
+Epoch 29/200
+ - 43s - loss: 0.0671 - val_loss: 0.0781
+Epoch 30/200
+ - 43s - loss: 0.0662 - val_loss: 0.0777
+Epoch 31/200
+ - 42s - loss: 0.0653 - val_loss: 0.0793
+Epoch 32/200
+ - 43s - loss: 0.0650 - val_loss: 0.0817
+Epoch 33/200
+ - 43s - loss: 0.0654 - val_loss: 0.0859
+
+Epoch 00033: ReduceLROnPlateau reducing learning rate to 0.0005000000237487257.
+Epoch 34/200
+ - 43s - loss: 0.0645 - val_loss: 0.0777
+Epoch 35/200
+ - 43s - loss: 0.0643 - val_loss: 0.0833
+Epoch 36/200
+ - 42s - loss: 0.0641 - val_loss: 0.0868
+Epoch 37/200
+ - 43s - loss: 0.0639 - val_loss: 0.0839
+Epoch 38/200
+ - 43s - loss: 0.0632 - val_loss: 0.0833
+
+Epoch 00038: ReduceLROnPlateau reducing learning rate to 0.0002500000118743628.
+Epoch 39/200
+ - 43s - loss: 0.0630 - val_loss: 0.0752
+Epoch 40/200
+ - 43s - loss: 0.0628 - val_loss: 0.0746
+Epoch 41/200
+ - 43s - loss: 0.0623 - val_loss: 0.0788
+Epoch 42/200
+ - 43s - loss: 0.0623 - val_loss: 0.0758
+Epoch 43/200
+ - 43s - loss: 0.0620 - val_loss: 0.0792
+Epoch 44/200
+ - 43s - loss: 0.0626 - val_loss: 0.0797
+Epoch 45/200
+ - 43s - loss: 0.0622 - val_loss: 0.0817
+
+Epoch 00045: ReduceLROnPlateau reducing learning rate to 0.0001250000059371814.
+Epoch 46/200
+ - 43s - loss: 0.0619 - val_loss: 0.0768
+Epoch 47/200
+ - 43s - loss: 0.0618 - val_loss: 0.0747
+Epoch 48/200
+ - 43s - loss: 0.0613 - val_loss: 0.0750
+Epoch 49/200
+ - 43s - loss: 0.0615 - val_loss: 0.0779
+Epoch 50/200
+ - 43s - loss: 0.0613 - val_loss: 0.0758
+
+Epoch 00050: ReduceLROnPlateau reducing learning rate to 6.25000029685907e-05.
+Epoch 51/200
+ - 43s - loss: 0.0616 - val_loss: 0.0743
+Epoch 52/200
+ - 43s - loss: 0.0609 - val_loss: 0.0742
+Epoch 53/200
+ - 43s - loss: 0.0609 - val_loss: 0.0768
+Epoch 54/200
+ - 43s - loss: 0.0612 - val_loss: 0.0770
+Epoch 55/200
+ - 43s - loss: 0.0608 - val_loss: 0.0739
+Epoch 56/200
+ - 43s - loss: 0.0615 - val_loss: 0.0766
+Epoch 57/200
+ - 43s - loss: 0.0609 - val_loss: 0.0744
+Epoch 58/200
+ - 43s - loss: 0.0610 - val_loss: 0.0752
+Epoch 59/200
+ - 44s - loss: 0.0609 - val_loss: 0.0743
+Epoch 60/200
+ - 44s - loss: 0.0606 - val_loss: 0.0748
+
+Epoch 00060: ReduceLROnPlateau reducing learning rate to 3.125000148429535e-05.
+Epoch 61/200
+ - 43s - loss: 0.0607 - val_loss: 0.0753
+Epoch 62/200
+ - 43s - loss: 0.0608 - val_loss: 0.0755
+Epoch 63/200
+ - 43s - loss: 0.0605 - val_loss: 0.0752
+Epoch 64/200
+ - 43s - loss: 0.0608 - val_loss: 0.0747
+Epoch 65/200
+ - 43s - loss: 0.0605 - val_loss: 0.0755
+
+Epoch 00065: ReduceLROnPlateau reducing learning rate to 2e-05.
+Epoch 66/200
+ - 43s - loss: 0.0607 - val_loss: 0.0745
+Epoch 67/200
+ - 43s - loss: 0.0603 - val_loss: 0.0751
+Epoch 68/200
+ - 43s - loss: 0.0605 - val_loss: 0.0748
+Epoch 69/200
+ - 43s - loss: 0.0602 - val_loss: 0.0751
+Epoch 70/200
+ - 43s - loss: 0.0607 - val_loss: 0.0759
+Epoch 71/200
+ - 43s - loss: 0.0607 - val_loss: 0.0752
+Epoch 72/200
+ - 43s - loss: 0.0604 - val_loss: 0.0747
+Epoch 73/200
+ - 43s - loss: 0.0603 - val_loss: 0.0754
+Epoch 74/200
+ - 43s - loss: 0.0605 - val_loss: 0.0739
+Epoch 75/200
+ - 43s - loss: 0.0606 - val_loss: 0.0750
+Epoch 00075: early stopping
