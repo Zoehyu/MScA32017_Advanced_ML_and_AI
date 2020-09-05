@@ -1,0 +1,47 @@
+// Revenue Management via RL for AdvancedML course
+// 14.01.2019 m.a.
+// iLykei (c)
+
+syntax = "proto3";
+
+
+// Client->Server:
+// 1) Right after connection server expects InitRequestMsg
+message InitRequestMsg {
+    int32 episode_duration = 1; // in seconds
+    string id = 2;
+}
+
+// Server->Client:
+// 2) Server sends to client its options: possible prices, total capacity, and num of sub_episodes
+message InitReplyMsg {
+    repeated int32 prices = 1; // possible prices
+    int32 total_capacity = 2;
+    int32 n_subepisodes = 3;
+    
+}
+
+// Client->Server:
+// 3) Server expects new prices at the beginning of each episode and on subepisode_end
+message SetPriceMsg {
+    bool reset_episode = 1;
+    int32 price = 2;
+}
+
+// Server->Client:
+// 4) Server sends this message on episode end, subepisode end or on client arrival
+message InfoMsg {
+    bool episode_end = 1;    // indicaes that reset from client required
+    bool subepisode_end = 2; // indicates that price from client required
+    int32 capacity = 3;
+    int32 subepisodes_left = 4;
+    int32 latest_clients = 5;
+    int32 latest_reward = 6;
+    int32 total_revenue = 7;
+}
+
+
+// 4a) InfoMsg for training
+message SimpleInfoMsg {
+    repeated int32 clients = 1;
+}
